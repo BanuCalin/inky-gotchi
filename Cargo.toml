@@ -3,6 +3,9 @@ name = "inky-gotchi"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+embedded-hal = "0.2.6"
+linux-embedded-hal = "0.3.2"
+profont = "0.5.0"
+embedded-graphics = "0.7.1"
+embedded-graphics-simulator = "0.3.0"
