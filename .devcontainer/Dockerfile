@@ -12,4 +12,6 @@ RUN apt-get update \
 
 # Install Cross
 ENV CROSS_DOCKER_IN_DOCKER=true
+RUN rustup component add rustfmt
+run rustup component add clippy
 RUN cargo install cross
