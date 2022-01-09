@@ -1,0 +1,3 @@
+[submodule "ssd1675"]
+	path = ssd1675
+	url = https://github.com/BanuCalin/ssd1675
